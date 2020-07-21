@@ -1,0 +1,47 @@
+.card-container {
+    margin: 100px auto 0 auto;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(155, 155, 155, 0.25);
+    background: #007bff1a;
+}
+
+#card-pay {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.card-container .btn-card {
+    display: flex;
+    max-width: 100px;
+    margin: 10px auto 0 auto;
+    padding-bottom: 5px;
+}
+
+.card-text {
+    padding: 5px 0;
+}
+
+.card-error {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+
+.card-container-title {
+    font-weight: bold;
+}
+
+.card-container div:nth-child(1) {
+
+}
+
+#card-container-sum {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
+}
